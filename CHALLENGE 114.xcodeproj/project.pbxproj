@@ -14,13 +14,13 @@
 		6525B9F41923DE520083F508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525B9F31923DE520083F508 /* main.m */; };
 		6525B9F81923DE520083F508 /* iDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525B9F71923DE520083F508 /* iDAppDelegate.m */; };
 		6525B9FB1923DE520083F508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6525B9F91923DE520083F508 /* Main.storyboard */; };
-		6525B9FE1923DE520083F508 /* iDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525B9FD1923DE520083F508 /* iDViewController.m */; };
 		6525BA001923DE520083F508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6525B9FF1923DE520083F508 /* Images.xcassets */; };
 		6525BA071923DE520083F508 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6525BA061923DE520083F508 /* XCTest.framework */; };
 		6525BA081923DE520083F508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6525B9E71923DE520083F508 /* Foundation.framework */; };
 		6525BA091923DE520083F508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6525B9EB1923DE520083F508 /* UIKit.framework */; };
 		6525BA111923DE520083F508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6525BA0F1923DE520083F508 /* InfoPlist.strings */; };
 		6525BA131923DE520083F508 /* CHALLENGE_114Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525BA121923DE520083F508 /* CHALLENGE_114Tests.m */; };
+		6525BA1E1923DE7B0083F508 /* iDChallengeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6525BA1D1923DE7B0083F508 /* iDChallengeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6525B9F61923DE520083F508 /* iDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDAppDelegate.h; sourceTree = "<group>"; };
 		6525B9F71923DE520083F508 /* iDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDAppDelegate.m; sourceTree = "<group>"; };
 		6525B9FA1923DE520083F508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6525B9FC1923DE520083F508 /* iDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDViewController.h; sourceTree = "<group>"; };
-		6525B9FD1923DE520083F508 /* iDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDViewController.m; sourceTree = "<group>"; };
 		6525B9FF1923DE520083F508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6525BA051923DE520083F508 /* CHALLENGE 114Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CHALLENGE 114Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6525BA061923DE520083F508 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6525BA0E1923DE520083F508 /* CHALLENGE 114Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHALLENGE 114Tests-Info.plist"; sourceTree = "<group>"; };
 		6525BA101923DE520083F508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6525BA121923DE520083F508 /* CHALLENGE_114Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHALLENGE_114Tests.m; sourceTree = "<group>"; };
+		6525BA1C1923DE7B0083F508 /* iDChallengeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDChallengeTableViewController.h; sourceTree = "<group>"; };
+		6525BA1D1923DE7B0083F508 /* iDChallengeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDChallengeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				6525B9F61923DE520083F508 /* iDAppDelegate.h */,
 				6525B9F71923DE520083F508 /* iDAppDelegate.m */,
 				6525B9F91923DE520083F508 /* Main.storyboard */,
-				6525B9FC1923DE520083F508 /* iDViewController.h */,
-				6525B9FD1923DE520083F508 /* iDViewController.m */,
+				6525BA1C1923DE7B0083F508 /* iDChallengeTableViewController.h */,
+				6525BA1D1923DE7B0083F508 /* iDChallengeTableViewController.m */,
 				6525B9FF1923DE520083F508 /* Images.xcassets */,
 				6525B9EE1923DE520083F508 /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				6525B9F41923DE520083F508 /* main.m in Sources */,
 				6525B9F81923DE520083F508 /* iDAppDelegate.m in Sources */,
-				6525B9FE1923DE520083F508 /* iDViewController.m in Sources */,
+				6525BA1E1923DE7B0083F508 /* iDChallengeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  iDViewController.h
+//  iDChallengeTableViewController.h
 //  CHALLENGE 114
 //
 //  Created by Daniel Griso Filho on 5/14/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iDViewController : UIViewController
+@interface iDChallengeTableViewController : UITableViewController
 
 @end
