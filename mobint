@@ -1,0 +1,10 @@
+Mobile Test 1
+Esta atividade procura testar os conhecimentos básicos em lógica de programação e desenvolvimento de interface.
+Conteúdos abordados:
+• Uso de webservices
+• Uso de API de terceiros
+• Conteúdo dinâmico
+• Tratamento de conectividade
+BONUS: • Pull to refresh • Animações
+Faça uma listagem com os ‘TOP SHOWS’ usando a API disponibilizada pela Trakt (https:// trakt.tv/), é necessário fazer um cadastro para utilizar a área de desenvolvedor. Fazer tratamento de conexão com a internet, tratar mensagem de erro. Não é necessário interatividade com o conteúdo exibido. Não existem restrições ao uso de bibliotecas.
+Exemplo do resultado esperado:
